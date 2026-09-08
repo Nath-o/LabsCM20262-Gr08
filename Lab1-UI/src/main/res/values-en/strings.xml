@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_contact_data">Contact Information</string>
+    <string name="phone_label">Phone</string>
+    <string name="address_label">Address</string>
+    <string name="email_label">Email</string>
+    <string name="country_label">Country</string>
+    <string name="city_label">City</string>
+    <string name="btn_next">Next</string>
+</resources>
