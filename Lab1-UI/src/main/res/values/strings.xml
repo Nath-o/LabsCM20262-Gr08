@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Labs20262-Gr08</string>
+    <string name="app_name">Lab1-UI</string>
+    <string name="title_contact_data">Información de contacto</string>
+    <string name="phone_label">Teléfono</string>
+    <string name="address_label">Dirección</string>
+    <string name="email_label">Email</string>
+    <string name="country_label">País</string>
+    <string name="city_label">Ciudad</string>
+    <string name="btn_next">Siguiente</string>
 </resources>
