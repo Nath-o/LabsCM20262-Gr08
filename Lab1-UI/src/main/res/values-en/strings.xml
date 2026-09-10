@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <string name="title_contact_data">Contact Information</string>
+=======
+    <string name="app_name">Lab1 UI</string>
+    <string name="title_personal_data">Personal Information</string>
+    <string name="title_contact_data">Contact Information</string>
+    <string name="title_summary">Information Summary</string>
+
+    <string name="names_label">Names</string>
+    <string name="lastnames_label">Last Names</string>
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="birthdate_label">Birthdate</string>
+    <string name="education_label">Education Level</string>
+
+>>>>>>> Final
     <string name="phone_label">Phone</string>
     <string name="address_label">Address</string>
     <string name="email_label">Email</string>
     <string name="country_label">Country</string>
     <string name="city_label">City</string>
+<<<<<<< HEAD
     <string name="btn_next">Next</string>
+=======
+
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_new_form">New Form</string>
+    <string name="btn_change_date">Change</string>
+
+    <string name="language_switch">Cambiar a Español</string>
+    <string name="mandatory_field">This field is mandatory</string>
+
+    <string name="summary_personal_info">Personal Data:</string>
+    <string name="summary_contact_info">Contact Data:</string>
+    <string name="summary_name">Name: %1$s %2$s</string>
+    <string name="summary_gender">Gender: %s</string>
+    <string name="summary_birthdate">Birthdate: %s</string>
+    <string name="summary_education">Education: %s</string>
+    <string name="summary_phone">Phone: %s</string>
+    <string name="summary_address">Address: %s</string>
+    <string name="summary_email">Email: %s</string>
+    <string name="summary_location">Location: %1$s, %2$s</string>
+
+    <string name="dialog_success_title">Registration Successful!</string>
+    <string name="dialog_success_msg">The data has been successfully registered in the system.</string>
+    <string name="invalid_email">Invalid e-mail format.</string>
+
+    <string name="invalid_phone">Phone number must contain only digits</string>
+
+    <string name="log_personal_info">PERSONAL INFORMATION:</string>
+    <string name="log_contact_info">CONTACT INFORMATION:</string>
+    <string name="log_names">First Name:</string>
+    <string name="log_lastnames">Last Name:</string>
+    <string name="log_gender">Gender:</string>
+    <string name="log_birthdate">Birthdate:</string>
+    <string name="log_education">Education:</string>
+    <string name="log_phone">Phone:</string>
+    <string name="log_address">Address:</string>
+    <string name="log_email">Email:</string>
+    <string name="log_country">Country:</string>
+    <string name="log_city">City:</string>
+>>>>>>> Final
 </resources>

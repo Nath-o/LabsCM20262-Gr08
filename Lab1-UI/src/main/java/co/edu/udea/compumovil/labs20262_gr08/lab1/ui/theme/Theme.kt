@@ -9,6 +9,7 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+<<<<<<< HEAD
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
@@ -31,13 +32,38 @@ private val LightColorScheme = lightColorScheme(
     onBackground = Color(0xFF1C1B1F),
     onSurface = Color(0xFF1C1B1F),
     */
+=======
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+
+private val DarkColorScheme = darkColorScheme(
+    primary = Green80,
+    secondary = GreenGrey80,
+    tertiary = Lime80
+)
+
+private val LightColorScheme = lightColorScheme(
+    primary = Green40,
+    secondary = GreenGrey40,
+    tertiary = Lime40,
+    background = GreenBackground,
+    surface = Color.White,
+    onPrimary = Color.White,
+    onSecondary = Color.White,
+    onBackground = Color(0xFF1B5E20),
+    onSurface = Color(0xFF1B5E20)
+>>>>>>> Final
 )
 
 @Composable
 fun Labs20262Gr08Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
+<<<<<<< HEAD
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
+=======
+    dynamicColor: Boolean = false, // Set to false to force our Green theme
+>>>>>>> Final
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
@@ -45,7 +71,10 @@ fun Labs20262Gr08Theme(
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Final
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
@@ -55,4 +84,8 @@ fun Labs20262Gr08Theme(
         typography = Typography,
         content = content
     )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Final

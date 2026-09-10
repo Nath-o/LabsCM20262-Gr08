@@ -1,10 +1,68 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Lab1-UI</string>
     <string name="title_contact_data">Información de contacto</string>
+=======
+    <string name="app_name">Lab1 UI</string>
+    <string name="title_personal_data">Información Personal</string>
+    <string name="title_contact_data">Información de Contacto</string>
+    <string name="title_summary">Resumen de Información</string>
+
+    <string name="names_label">Nombres</string>
+    <string name="lastnames_label">Apellidos</string>
+    <string name="gender_label">Sexo</string>
+    <string name="gender_male">Hombre</string>
+    <string name="gender_female">Mujer</string>
+    <string name="birthdate_label">Fecha de Nacimiento</string>
+    <string name="education_label">Grado de escolaridad</string>
+
+>>>>>>> Final
     <string name="phone_label">Teléfono</string>
     <string name="address_label">Dirección</string>
     <string name="email_label">Email</string>
     <string name="country_label">País</string>
     <string name="city_label">Ciudad</string>
+<<<<<<< HEAD
     <string name="btn_next">Siguiente</string>
+=======
+
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_back">Volver</string>
+    <string name="btn_finish">Finalizar</string>
+    <string name="btn_new_form">Nuevo Formulario</string>
+    <string name="btn_change_date">Cambiar</string>
+
+    <string name="language_switch">Switch to English</string>
+    <string name="mandatory_field">Este campo es obligatorio</string>
+
+    <string name="summary_personal_info">Datos Personales:</string>
+    <string name="summary_contact_info">Datos de Contacto:</string>
+    <string name="summary_name">Nombre: %1$s %2$s</string>
+    <string name="summary_gender">Sexo: %s</string>
+    <string name="summary_birthdate">Nacimiento: %s</string>
+    <string name="summary_education">Educación: %s</string>
+    <string name="summary_phone">Teléfono: %s</string>
+    <string name="summary_address">Dirección: %s</string>
+    <string name="summary_email">Email: %s</string>
+    <string name="summary_location">Ubicación: %1$s, %2$s</string>
+
+    <string name="dialog_success_title">¡Registro Exitoso!</string>
+    <string name="dialog_success_msg">Los datos han sido registrados correctamente en el sistema.</string>
+    <string name="invalid_email">Formato de correo electrónico inválido</string>
+
+    <string name="invalid_phone">El teléfono debe contener solo números</string>
+
+    <string name="log_personal_info">INFORMACIÓN PERSONAL:</string>
+    <string name="log_contact_info">INFORMACIÓN DE CONTACTO:</string>
+    <string name="log_names">Nombres:</string>
+    <string name="log_lastnames">Apellidos:</string>
+    <string name="log_gender">Sexo:</string>
+    <string name="log_birthdate">Fecha de Nacimiento:</string>
+    <string name="log_education">Escolaridad:</string>
+    <string name="log_phone">Teléfono:</string>
+    <string name="log_address">Dirección:</string>
+    <string name="log_email">Email:</string>
+    <string name="log_country">País:</string>
+    <string name="log_city">Ciudad:</string>
+>>>>>>> Final
 </resources>

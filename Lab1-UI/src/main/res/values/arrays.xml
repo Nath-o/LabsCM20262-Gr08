@@ -3,7 +3,12 @@
     <string-array name="grados_escolaridad">
         <item>Primaria</item>
         <item>Secundaria</item>
+<<<<<<< HEAD
         <item>Bachillerato</item>
         <item>Otro</item>
+=======
+        <item>Pregrado</item>
+        <item>Posgrado</item>
+>>>>>>> Final
     </string-array>
 </resources>

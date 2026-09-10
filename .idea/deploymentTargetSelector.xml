@@ -2,6 +2,13 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
+<<<<<<< HEAD
+=======
+      <SelectionState runConfigName="Lab1_ContactDataActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DialogSelection />
+      </SelectionState>
+>>>>>>> Final
       <SelectionState runConfigName="Lab1-UI">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
